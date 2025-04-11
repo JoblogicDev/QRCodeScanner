@@ -16,7 +16,7 @@ class ViewController: UIViewController, QRCodeReaderDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        // Do any additional setup after loading the view.➜ xcodebuild -scheme JoblogicTTTAttributedLabel -destination 'generic/platform=iOS'
     }
 
 
@@ -37,4 +37,3 @@ class ViewController: UIViewController, QRCodeReaderDelegate {
         present(viewController, animated: true)
     }
 }
-

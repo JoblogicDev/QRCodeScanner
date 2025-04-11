@@ -66,3 +66,17 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+
+# Swift Package Manager (SPM)
+# Ignore the Swift package manager build artifacts
+.build/
+Packages/
+
+# Ignore the .swiftpm directory (contains SPM configuration)
+.swiftpm/
+
+# Ignore Xcode's generated xcshareddata and xcuserdata folders
+.xcuserstate
+
+# Ignore any generated package intermediate files (e.g., in DerivedData)
+DerivedData/
