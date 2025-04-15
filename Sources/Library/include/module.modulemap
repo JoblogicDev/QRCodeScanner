@@ -1,0 +1,11 @@
+framework module JoblogicQRScanner {
+    umbrella "."
+    
+    explicit module QRCodeReaderViewController {
+        header "QRCodeReaderViewController.h"
+        export *
+    }
+    
+    export *
+    module * { export * }
+} 
