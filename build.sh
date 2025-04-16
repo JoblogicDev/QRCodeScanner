@@ -112,10 +112,19 @@ echo "Build completed successfully!"
 echo "XCFramework is available at: ${OUTPUT_DIR}/${FRAMEWORK_NAME}.xcframework" 
 
 XC_FRAMEWORK_PATH="./build/${FRAMEWORK_NAME}.xcframework"
-# Get version from version.yml
-VERSION=$(yq e '.version' version.yml)
-echo "Version: $VERSION"
+# Bump patch version in version.yml
+echo "Bumping patch version..."
+OLD_VERSION=$(yq e '.version' version.yml)
+IFS='.' read -r MAJOR MINOR PATCH <<< "$OLD_VERSION"
+NEW_PATCH=$((PATCH + 1))
+NEW_VERSION="${MAJOR}.${MINOR}.${NEW_PATCH}"
+
+# Update version.yml
+yq e ".version = \"${NEW_VERSION}\"" -i version.yml
+echo "New version: ${NEW_VERSION}"
+
 # Define zip file name with version
+VERSION=$NEW_VERSION
 ZIP_FILE="${VERSION}-${FRAMEWORK_NAME}.xcframework.zip"
 echo "Creating zip file..."
 cd ./build
