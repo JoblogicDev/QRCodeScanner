@@ -3,6 +3,18 @@
 # Exit on error
 set -e
 
+# Install XcodeGen if not installed
+if ! command -v xcodegen &> /dev/null; then
+    brew install xcodegen
+fi
+
+# Check and install required dependencies
+echo "Checking required dependencies..."
+if ! command -v yq &> /dev/null; then
+    echo "Installing yq..."
+    brew install yq
+fi
+
 # Configuration
 SCHEME="JoblogicQRScanner"
 FRAMEWORK_NAME="JoblogicQRScanner"
@@ -98,3 +110,14 @@ EOF
 
 echo "Build completed successfully!"
 echo "XCFramework is available at: ${OUTPUT_DIR}/${FRAMEWORK_NAME}.xcframework" 
+
+XC_FRAMEWORK_PATH="./build/${FRAMEWORK_NAME}.xcframework"
+# Get version from version.yml
+VERSION=$(yq e '.version' version.yml)
+echo "Version: $VERSION"
+# Define zip file name with version
+ZIP_FILE="${VERSION}-${FRAMEWORK_NAME}.xcframework.zip"
+echo "Creating zip file..."
+cd ./build
+zip -r "../${ZIP_FILE}" "${FRAMEWORK_NAME}.xcframework"
+cd ..
