@@ -7,21 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3C488E3DA3A21ECCBD0D64F7 /* QRCodeReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A16F281EA6AF48FE60748B /* QRCodeReader.m */; };
-		5123DF01FF64855F2B2D371B /* QRCameraSwitchButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 373B11A8525F16B14E454469 /* QRCameraSwitchButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		55E13806A8A02E2BE4F8A5F6 /* QRToggleTorchButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A215A598A7161BE01B022F2 /* QRToggleTorchButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AB29E6F9E80B33F99327D120 /* QRCodeReaderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E4A67BBDAECD9BE426A59711 /* QRCodeReaderDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BDF952E553CCBA45CDE894FC /* QRCodeReader.h in Headers */ = {isa = PBXBuildFile; fileRef = C83591A48B0E787AB9D0DC77 /* QRCodeReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD4F51B34012B8DBF42419D2 /* QRCodeReaderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 80A7A2B3CEA61F19AA406FEF /* QRCodeReaderViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF6CCC4C8AACCB01A4D4E6B2 /* QRCodeReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEB3507AA5449DF16F3BD8A /* QRCodeReaderViewController.m */; };
-		EEA2EB503F0ABD1C0C1DD0F7 /* QRCameraSwitchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 139A40FE0FB7CB19FFFAA431 /* QRCameraSwitchButton.m */; };
-		EEBCA766A6CB2BBDCE4C03C5 /* QRToggleTorchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0E47D81ED5E2C830725557 /* QRToggleTorchButton.m */; };
-		EEE1A78D9E4A75568861E9EF /* QRCodeReaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0858FE978E1F9AC3FE8A6 /* QRCodeReaderView.m */; };
-		F677E898BD79A747483FA189 /* QRCodeReaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 826D58782B2FCE3A38433412 /* QRCodeReaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08C82F9D2DBCCB0E001938FB /* QRCodeReaderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 80A7A2B3CEA61F19AA406FEF /* QRCodeReaderViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08C82F9E2DBCCB0E001938FB /* QRCodeReader.h in Headers */ = {isa = PBXBuildFile; fileRef = C83591A48B0E787AB9D0DC77 /* QRCodeReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08C82F9F2DBCCB0E001938FB /* QRCameraSwitchButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 373B11A8525F16B14E454469 /* QRCameraSwitchButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08C82FA02DBCCB0E001938FB /* QRToggleTorchButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A215A598A7161BE01B022F2 /* QRToggleTorchButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08C82FA12DBCCB0E001938FB /* QRCodeReaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 826D58782B2FCE3A38433412 /* QRCodeReaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08C82FA22DBCCB0E001938FB /* QRCodeReaderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E4A67BBDAECD9BE426A59711 /* QRCodeReaderDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08C82FA32DBCCB15001938FB /* QRToggleTorchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0E47D81ED5E2C830725557 /* QRToggleTorchButton.m */; };
+		08C82FA42DBCCB15001938FB /* QRCameraSwitchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 139A40FE0FB7CB19FFFAA431 /* QRCameraSwitchButton.m */; };
+		08C82FA52DBCCB15001938FB /* QRCodeReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEB3507AA5449DF16F3BD8A /* QRCodeReaderViewController.m */; };
+		08C82FA62DBCCB15001938FB /* QRCodeReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A16F281EA6AF48FE60748B /* QRCodeReader.m */; };
+		08C82FA72DBCCB15001938FB /* QRCodeReaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0858FE978E1F9AC3FE8A6 /* QRCodeReaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		080293A62DBCB9130097087C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08C82F942DBCCAF9001938FB /* JoblogicQRScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JoblogicQRScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AEB3507AA5449DF16F3BD8A /* QRCodeReaderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRCodeReaderViewController.m; sourceTree = "<group>"; };
 		139A40FE0FB7CB19FFFAA431 /* QRCameraSwitchButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRCameraSwitchButton.m; sourceTree = "<group>"; };
 		373B11A8525F16B14E454469 /* QRCameraSwitchButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRCameraSwitchButton.h; sourceTree = "<group>"; };
@@ -32,10 +33,18 @@
 		89A16F281EA6AF48FE60748B /* QRCodeReader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRCodeReader.m; sourceTree = "<group>"; };
 		8F0E47D81ED5E2C830725557 /* QRToggleTorchButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRToggleTorchButton.m; sourceTree = "<group>"; };
 		C83591A48B0E787AB9D0DC77 /* QRCodeReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRCodeReader.h; sourceTree = "<group>"; };
-		D005708D254F358186AA5D76 /* JoblogicQRScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JoblogicQRScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A67BBDAECD9BE426A59711 /* QRCodeReaderDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRCodeReaderDelegate.h; sourceTree = "<group>"; };
-		E66BB47070C3470BF25234C2 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08C82F912DBCCAF9001938FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		9853BD73F2F8513AE5852035 /* Sources */ = {
@@ -49,7 +58,6 @@
 		9975DD09E0641E7F57D6497F /* include */ = {
 			isa = PBXGroup;
 			children = (
-				E66BB47070C3470BF25234C2 /* module.modulemap */,
 				373B11A8525F16B14E454469 /* QRCameraSwitchButton.h */,
 				C83591A48B0E787AB9D0DC77 /* QRCodeReader.h */,
 				E4A67BBDAECD9BE426A59711 /* QRCodeReaderDelegate.h */,
@@ -77,7 +85,7 @@
 		A6C5D3FE4109A0AFE2248B8F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D005708D254F358186AA5D76 /* JoblogicQRScanner.framework */,
+				08C82F942DBCCAF9001938FB /* JoblogicQRScanner.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,36 +104,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4FA3956B6B8DFAD55FECEDB2 /* Headers */ = {
+		08C82F8F2DBCCAF9001938FB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5123DF01FF64855F2B2D371B /* QRCameraSwitchButton.h in Headers */,
-				BDF952E553CCBA45CDE894FC /* QRCodeReader.h in Headers */,
-				AB29E6F9E80B33F99327D120 /* QRCodeReaderDelegate.h in Headers */,
-				F677E898BD79A747483FA189 /* QRCodeReaderView.h in Headers */,
-				CD4F51B34012B8DBF42419D2 /* QRCodeReaderViewController.h in Headers */,
-				55E13806A8A02E2BE4F8A5F6 /* QRToggleTorchButton.h in Headers */,
+				08C82F9D2DBCCB0E001938FB /* QRCodeReaderViewController.h in Headers */,
+				08C82F9E2DBCCB0E001938FB /* QRCodeReader.h in Headers */,
+				08C82F9F2DBCCB0E001938FB /* QRCameraSwitchButton.h in Headers */,
+				08C82FA02DBCCB0E001938FB /* QRToggleTorchButton.h in Headers */,
+				08C82FA12DBCCB0E001938FB /* QRCodeReaderView.h in Headers */,
+				08C82FA22DBCCB0E001938FB /* QRCodeReaderDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		DFB9F858254A14758A51712D /* JoblogicQRScanner */ = {
+		08C82F932DBCCAF9001938FB /* JoblogicQRScanner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3BAA54A433DF525B87716D96 /* Build configuration list for PBXNativeTarget "JoblogicQRScanner" */;
+			buildConfigurationList = 08C82F992DBCCAF9001938FB /* Build configuration list for PBXNativeTarget "JoblogicQRScanner" */;
 			buildPhases = (
-				4FA3956B6B8DFAD55FECEDB2 /* Headers */,
-				8406B82C5A9ED5725667D317 /* Sources */,
+				08C82F8F2DBCCAF9001938FB /* Headers */,
+				08C82F902DBCCAF9001938FB /* Sources */,
+				08C82F912DBCCAF9001938FB /* Frameworks */,
+				08C82F922DBCCAF9001938FB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = JoblogicQRScanner;
+			packageProductDependencies = (
+			);
 			productName = JoblogicQRScanner;
-			productReference = D005708D254F358186AA5D76 /* JoblogicQRScanner.framework */;
+			productReference = 08C82F942DBCCAF9001938FB /* JoblogicQRScanner.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -136,6 +148,11 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					08C82F932DBCCAF9001938FB = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
 			};
 			buildConfigurationList = 31E2434D323E2A5EFA722C3B /* Build configuration list for PBXProject "JoblogicQRScanner" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -149,67 +166,113 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DFB9F858254A14758A51712D /* JoblogicQRScanner */,
+				08C82F932DBCCAF9001938FB /* JoblogicQRScanner */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		08C82F922DBCCAF9001938FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		8406B82C5A9ED5725667D317 /* Sources */ = {
+		08C82F902DBCCAF9001938FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEA2EB503F0ABD1C0C1DD0F7 /* QRCameraSwitchButton.m in Sources */,
-				3C488E3DA3A21ECCBD0D64F7 /* QRCodeReader.m in Sources */,
-				EEE1A78D9E4A75568861E9EF /* QRCodeReaderView.m in Sources */,
-				DF6CCC4C8AACCB01A4D4E6B2 /* QRCodeReaderViewController.m in Sources */,
-				EEBCA766A6CB2BBDCE4C03C5 /* QRToggleTorchButton.m in Sources */,
+				08C82FA32DBCCB15001938FB /* QRToggleTorchButton.m in Sources */,
+				08C82FA42DBCCB15001938FB /* QRCameraSwitchButton.m in Sources */,
+				08C82FA52DBCCB15001938FB /* QRCodeReaderViewController.m in Sources */,
+				08C82FA62DBCCB15001938FB /* QRCodeReader.m in Sources */,
+				08C82FA72DBCCB15001938FB /* QRCodeReaderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		05A4DD7C976F26FD59E3D12F /* Release */ = {
+		08C82F9A2DBCCAF9001938FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				COPY_HEADERS_RUN_PHASE_PRIVATE = YES;
-				COPY_HEADERS_RUN_PHASE_PRODUCTS = YES;
-				COPY_HEADERS_RUN_PHASE_PUBLIC = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
-				HEADER_SEARCH_PATHS = Sources/Library/include;
-				INFOPLIST_KEY_CFBundlePackageType = FMWK;
-				INFOPLIST_KEY_CFBundleShortVersionString = 1.0.0;
-				INFOPLIST_KEY_CFBundleVersion = 1;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 Joblogic. All rights reserved.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = mh_dylib;
-				MODULEMAP_FILE = Sources/Library/include/module.modulemap;
-				PRIVATE_HEADERS_FOLDER_PATH = PrivateHeaders;
-				PRODUCT_BUNDLE_IDENTIFIER = com.joblogiclibrary.JoblogicQRScanner;
-				PRODUCT_NAME = JoblogicQRScanner;
-				PUBLIC_HEADERS_FOLDER_PATH = Headers;
-				PUBLIC_HEADERS_PATHS = Sources/Library/include;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tracer.qrscanner.JoblogicQRScanner;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = Sources/Library/include;
 				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		08C82F9B2DBCCAF9001938FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tracer.qrscanner.JoblogicQRScanner;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -332,66 +395,23 @@
 			};
 			name = Debug;
 		};
-		8125C6A590D8C246C7D88656 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				COPY_HEADERS_RUN_PHASE_PRIVATE = YES;
-				COPY_HEADERS_RUN_PHASE_PRODUCTS = YES;
-				COPY_HEADERS_RUN_PHASE_PUBLIC = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GENERATE_INFOPLIST_FILE = YES;
-				HEADER_SEARCH_PATHS = Sources/Library/include;
-				INFOPLIST_KEY_CFBundlePackageType = FMWK;
-				INFOPLIST_KEY_CFBundleShortVersionString = 1.0.0;
-				INFOPLIST_KEY_CFBundleVersion = 1;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 Joblogic. All rights reserved.";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MACH_O_TYPE = mh_dylib;
-				MODULEMAP_FILE = Sources/Library/include/module.modulemap;
-				PRIVATE_HEADERS_FOLDER_PATH = PrivateHeaders;
-				PRODUCT_BUNDLE_IDENTIFIER = com.joblogiclibrary.JoblogicQRScanner;
-				PRODUCT_NAME = JoblogicQRScanner;
-				PUBLIC_HEADERS_FOLDER_PATH = Headers;
-				PUBLIC_HEADERS_PATHS = Sources/Library/include;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = Sources/Library/include;
-				VERSIONING_SYSTEM = "apple-generic";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		08C82F992DBCCAF9001938FB /* Build configuration list for PBXNativeTarget "JoblogicQRScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08C82F9A2DBCCAF9001938FB /* Debug */,
+				08C82F9B2DBCCAF9001938FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
 		31E2434D323E2A5EFA722C3B /* Build configuration list for PBXProject "JoblogicQRScanner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1CBD309956E23F0224AE2016 /* Debug */,
 				0D2F83938B9ADAF5AEEE726B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		3BAA54A433DF525B87716D96 /* Build configuration list for PBXNativeTarget "JoblogicQRScanner" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8125C6A590D8C246C7D88656 /* Debug */,
-				05A4DD7C976F26FD59E3D12F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

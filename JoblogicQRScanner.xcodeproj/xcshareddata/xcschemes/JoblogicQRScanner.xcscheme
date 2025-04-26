@@ -15,7 +15,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DFB9F858254A14758A51712D"
+               BlueprintIdentifier = "08C82F932DBCCAF9001938FB"
                BuildableName = "JoblogicQRScanner.framework"
                BlueprintName = "JoblogicQRScanner"
                ReferencedContainer = "container:JoblogicQRScanner.xcodeproj">
@@ -50,7 +50,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DFB9F858254A14758A51712D"
+            BlueprintIdentifier = "08C82F932DBCCAF9001938FB"
             BuildableName = "JoblogicQRScanner.framework"
             BlueprintName = "JoblogicQRScanner"
             ReferencedContainer = "container:JoblogicQRScanner.xcodeproj">
