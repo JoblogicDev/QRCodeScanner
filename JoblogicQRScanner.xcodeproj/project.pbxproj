@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -21,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		080293A62DBCB9130097087C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AEB3507AA5449DF16F3BD8A /* QRCodeReaderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRCodeReaderViewController.m; sourceTree = "<group>"; };
 		139A40FE0FB7CB19FFFAA431 /* QRCameraSwitchButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRCameraSwitchButton.m; sourceTree = "<group>"; };
 		373B11A8525F16B14E454469 /* QRCameraSwitchButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRCameraSwitchButton.h; sourceTree = "<group>"; };
@@ -68,6 +69,7 @@
 				0AEB3507AA5449DF16F3BD8A /* QRCodeReaderViewController.m */,
 				8F0E47D81ED5E2C830725557 /* QRToggleTorchButton.m */,
 				9975DD09E0641E7F57D6497F /* include */,
+				080293A62DBCB9130097087C /* Info.plist */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -134,8 +136,6 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1400;
-				TargetAttributes = {
-				};
 			};
 			buildConfigurationList = 31E2434D323E2A5EFA722C3B /* Build configuration list for PBXProject "JoblogicQRScanner" */;
 			compatibilityVersion = "Xcode 14.0";
